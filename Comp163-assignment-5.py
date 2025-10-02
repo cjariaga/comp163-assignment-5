@@ -41,3 +41,20 @@ if is_prime:
     print(f"{n} is prime!")
 print()  # blank line for spacing
 
+# Challenge 3: Multiplication Table
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+
+# Header row
+print("    ", end="")
+for col in range(1, 11):
+    print(f"{col:4}", end="")
+print()
+
+# Table body
+for row in range(1, 11):
+    print(f"{row:2}", end="")   # row label
+    for col in range(1, 11):
+        product = row * col
+        print(f"{product:4}", end="")
+    print()
