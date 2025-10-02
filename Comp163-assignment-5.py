@@ -1,7 +1,6 @@
 # COMP 163 Assignment 5 - Loop Mastery (Example)
 # By: Clayan Ariaga
 
-
 # Challenge 1: Collatz Sequence
 print("=== Challenge 1: Collatz Conjecture ===")
 current_number = int(input("Enter starting number: "))
